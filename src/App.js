@@ -1,8 +1,10 @@
+import { useRoutes } from "react-router-dom";
+import routes from "./routes";
 function App() {
-
+  const router = useRoutes(routes)
   return (
     <>
-      <h1 className="flex justify-center items-center bg-emerald-300 ">hassan</h1>
+      {router}
     </>
   );
 }
