@@ -3,13 +3,17 @@ import Login from "./pages/auth/Login";
 import Logout from "./pages/auth/Logout";
 import Register from "./pages/auth/Register";
 import Index from "./pages/home/Index";
-import Post from "./pages/post/Post";
-import User from "./pages/user/User"
+import Posts from "./pages/posts/Posts";
+import Users from "./pages/users/Users"
+import Contact from "./pages/Contact/Contact"
+import Profile from "./pages/Profile/Profile"
 const routes = [
     { path: "/", element: <Index /> },
+    { path: "/profile", element: <Profile /> },
     { path: "/abute", element: <Abute /> },
-    { path: "/user", element: <User /> },
-    { path: "/post", element: <Post /> },
+    { path: "/users", element: <Users /> },
+    { path: "/posts", element: <Posts /> },
+    { path: "/contact-as", element: <Contact /> },
     { path: "/user/login", element: <Login /> },
     { path: "/user/logout", element: <Logout /> },
     { path: "/user/register", element: <Register /> },

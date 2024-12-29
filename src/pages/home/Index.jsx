@@ -4,7 +4,9 @@ import Layout from '../../Layout/Layout';
 export default function Index() {
   return (
     <Layout>
-      <div className='flex-1 bg-blue-500'> index</div>
+      <div className='w-full px-4 pt-32  h-[500rem] bg-slate-900 text-white'>
+          index
+      </div>
     </Layout>
   )
 }
