@@ -34,8 +34,8 @@ export default function Header() {
               alt="user-profile"
             />
           </Link> */}
-          <Link to={"/login"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><SquaresPlusIcon className="size-5 text-white" />Register</Link>
-          <Link to={"/login"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><ArrowLeftEndOnRectangleIcon className="size-5 text-white" />Logoin</Link>
+          <Link to={"/user/register"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><SquaresPlusIcon className="size-5 text-white" />Register</Link>
+          <Link to={"/user/login"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><ArrowLeftEndOnRectangleIcon className="size-5 text-white" />Logoin</Link>
           
         </div>
       </div>
