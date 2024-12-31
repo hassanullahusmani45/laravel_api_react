@@ -31,7 +31,6 @@ export default function Register() {
             type="text"
             placeholder="plece enter your full name."
             className="font-medium border-[3px] rounded-full shadow-md block w-full p-2 px-6 text-blue-800 bg-slate-200 placeholder:text-gray-500 placeholder:text-sm placeholder:font-normal"
-            isValid={true}
           />
           <UserIcon className='absolute right-3 top-3 size-5 text-slate-900' />
         </div>
@@ -46,7 +45,6 @@ export default function Register() {
             type="email"
             placeholder="exmple@gmail.com"
             className="font-medium border-[3px] rounded-full shadow-md block w-full p-2 px-6 text-blue-800 bg-slate-200 placeholder:text-gray-500 placeholder:text-sm placeholder:font-normal"
-            isValid={true}
           />
           <EnvelopeIcon className='absolute right-3 top-3 size-5 text-slate-900' />
         </div>
@@ -61,7 +59,6 @@ export default function Register() {
             type="password"
             placeholder="********"
             className="font-medium border-[3px] rounded-full shadow-md block w-full p-2 px-6 text-blue-800 bg-slate-200 placeholder:text-gray-500 placeholder:text-sm placeholder:font-normal"
-            isValid={true}
           />
           <LockClosedIcon className='absolute right-3 top-3 size-5 text-slate-900' />
         </div>
