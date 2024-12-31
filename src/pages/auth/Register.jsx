@@ -22,8 +22,8 @@ export default function Register() {
           <img src={Logo} className="w-24 h-24 rounded-full" alt="logo" />
         </Link>
 
-        <label for="Full-name"
-          class="block pl-2 mb-2 font-medium text-white dark:text-gray-200">Full-name :</label>
+        <label htmlFor="Full-name"
+          className="block pl-2 mb-2 font-medium text-white dark:text-gray-200">Full-name :</label>
         <div className='relative'>
           <Input
             id="Full-name"
@@ -37,8 +37,8 @@ export default function Register() {
         </div>
 
 
-        <label for="email"
-          class="block pl-2 mb-2 mt-4 font-medium text-white dark:text-gray-200">Email :</label>
+        <label htmlFor="email"
+          className="block pl-2 mb-2 mt-4 font-medium text-white dark:text-gray-200">Email :</label>
         <div className='relative'>
           <Input
             element="input"
@@ -52,8 +52,8 @@ export default function Register() {
         </div>
 
 
-        <label for="password"
-          class="block pl-2 mb-2 mt-4 font-medium text-white dark:text-gray-200">Password :</label>
+        <label htmlFor="password"
+          className="block pl-2 mb-2 mt-4 font-medium text-white dark:text-gray-200">Password :</label>
         <div className='relative'>
           <Input
             element="input"
