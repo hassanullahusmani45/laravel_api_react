@@ -2,7 +2,7 @@ import React from "react";
 // import Profile from "../assets/images/profile.jpg";
 import Logo from "../assets/images/logo-white.svg";
 import { Link } from "react-router-dom";
-// import { UsersIcon, CommandLineIcon, ChatBubbleOvalLeftIcon, LinkIcon, ChevronDownIcon, ArrowLeftStartOnRectangleIcon, SquaresPlusIcon, ArrowLeftEndOnRectangleIcon } from '@heroicons/react/24/outline'
+// import { UsersIcon, CommandLineIcon, ChatBubbleOvalLeftIcon, LinkIcon, ChevronDownIcon, ArrowLeftStartOnRectangleIcon, UserIcon} from '@heroicons/react/24/outline'
 import { UsersIcon, CommandLineIcon, ChatBubbleOvalLeftIcon, LinkIcon, ArrowLeftEndOnRectangleIcon, SquaresPlusIcon } from '@heroicons/react/24/outline'
 
 
@@ -21,8 +21,9 @@ export default function Header() {
           <Link to={"/contact-as"} className="flex justify-around items-center gap-x-1 hover:text-orange-300 hover:border-b hover:border-orange-400"><LinkIcon className="size-6 text-white" />contact as</Link>
         </div>
         <div className="flex justify-center items-center gap-2">
-          {/* <div className="relative"><ChevronDownIcon className="size-5 " />
-            <div className="absolute right-0 bg-gray-900 border-x rounded-lg px-6 py-4">
+          {/* <div className="relative group"><ChevronDownIcon className="size-5 cursor-pointer hover:text-orange-300 transition-all" />
+            <div className="absolute invisible group-hover:visible transition-all right-0 bg-gray-900 border-x rounded-lg px-6 py-4 space-y-3">
+              <Link to={"/profile"} className="flex justify-around items-center gap-x-2 hover:text-orange-300 text-sm"><UserIcon className="size-4 text-white" />Profile</Link>
               <Link to={"/logout"} className="flex justify-around items-center gap-x-2 hover:text-orange-300 text-sm"><ArrowLeftStartOnRectangleIcon className="size-4 text-white" />Logout</Link>
             </div>
           </div>
@@ -35,8 +36,8 @@ export default function Header() {
             />
           </Link> */}
           <Link to={"/user/register"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><SquaresPlusIcon className="size-5 text-white" />Register</Link>
-          <Link to={"/user/login"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><ArrowLeftEndOnRectangleIcon className="size-5 text-white" />Logoin</Link>
-          
+          <Link to={"/user/login"} className="flex justify-around items-center gap-x-1 hover:text-orange-300"><ArrowLeftEndOnRectangleIcon className="size-5 text-white" />Login</Link>
+
         </div>
       </div>
     </header>
